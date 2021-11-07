@@ -1,0 +1,74 @@
+* {
+  font-family: "Arial", sans-serif;
+}
+body {
+  /* background-image: url(https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+  background-image: url(https://media.istockphoto.com/vectors/xoxo-kiss-hug-hugs-and-kisses-typographic-coral-red-seamless-pattern-vector-id1305477250?k=20&m=1305477250&s=612x612&w=0&h=yLlD3SOKs74asUby8nAyfSbI1BRwAXTwtgliU71oHA0=);
+}
+input {
+  color: darkblue;
+  border-radius: 25%;
+  background-color: rgb(235, 135, 117);
+  box-shadow: 1px 1px black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+section {
+  text-align: center;
+}
+.gameTitle {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  padding: 1em 1em 1em 1em;
+  text-shadow: 1px 1px black;
+  /* border: 2px 2px black; */
+  box-shadow: 0.5em 0.5em 0.5em 0.5em black;
+  border-radius: 25%;
+  border-style: solid;
+  background-color: rgb(235, 135, 117);
+}
+
+.gameContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 307px;
+  margin: 70px auto;
+  padding: 2em;
+  background-color: rgb(235, 135, 117);
+  border-radius: 20%;
+  box-shadow: 0.5em 0.5em 0.5em 0.5em black;
+}
+.gameRestart {
+  color: darkblue;
+  background-color: rgb(235, 135, 117);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  /* padding: 2em; */
+  text-shadow: 2px 2px black;
+  border-radius: 20%;
+}
+#gameStatus {
+  color: rgb(235, 135, 117);
+}
+.username {
+  text-align: left;
+  color: rgb(235, 135, 117);
+}
+.username1 {
+  text-align: center;
+  color: rgb(235, 135, 117);
+}
+
+.cell {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+
+  line-height: 100px;
+  font-size: 60px;
+}
